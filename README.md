@@ -7,7 +7,7 @@ Coursework from the USCD Data Structures and Algorithms Specialization offered o
 - Week 1: Introductory Algorithms
 - Week 2: Introductory Algorithms (Continued)
 - Week 3: Greedy Algorithms
-- Week 4: Divide and Conquer
+- Week 4: Divide and Conquer Algorithms
 - Week 5: Dynamic Programming
 - Week 6: Dynamic Programming (Continued)
 
