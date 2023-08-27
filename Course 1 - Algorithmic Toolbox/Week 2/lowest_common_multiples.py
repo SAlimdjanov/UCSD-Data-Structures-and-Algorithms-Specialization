@@ -5,7 +5,17 @@ lowest_common_multiples.py
 
 
 def greatest_common_divisor(num_a, num_b):
-    """Obtains GCD"""
+    """
+    Obtains the greatest common divisor for two given integers
+
+    Args:
+        num_a (int): Integer a
+        num_b (int): Integer b
+
+    Returns:
+        int: Greatest common divisor
+
+    """
     if b == 0:
         return num_a
     while num_b:
@@ -14,7 +24,18 @@ def greatest_common_divisor(num_a, num_b):
 
 
 def lowest_common_multiple(num_a, num_b):
-    """Obtains LCM"""
+    """
+    Obtains the lowest common multiple for two given integers using the
+    greatest_common_divisor function
+
+    Args:
+        num_a (int): Integer a
+        num_b (int): Integer b
+
+    Returns:
+        int: Lowest common multiple
+
+    """
     return (num_a * num_b) // greatest_common_divisor(num_a, num_b)
 
 

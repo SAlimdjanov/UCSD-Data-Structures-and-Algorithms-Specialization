@@ -5,9 +5,19 @@ money_change.py
 
 
 def money_change(money):
-    """Returns minumum number of coins with denominations 1, 5, and 10"""
+    """
+    Returns minumum number of coins with denominations 1, 5, and 10
+
+    Args:
+        money (int): Amount of money
+
+    Returns:
+        int: lowest number of coins amounting to 'money'
+
+    """
     if 1 <= money <= 10**3:
         coins = 0
+
         while money > 0:
             if money >= 10:
                 money -= 10
@@ -16,7 +26,9 @@ def money_change(money):
             else:
                 money -= 1
             coins += 1
+
         return coins
+
     return None
 
 

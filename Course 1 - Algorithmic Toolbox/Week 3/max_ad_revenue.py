@@ -5,7 +5,18 @@ max_ad_revenue.py
 
 
 def max_ad_revenue(num_n, price_list, clicks_list):
-    """Computes the max dot product of the two lists"""
+    """
+    Computes the maximum possible ad revenue through maximizing the dot product of the two lists
+
+    Args:
+        num_n (int): Number of elements in both lists
+        price_list (list, int): List of prices
+        clicks_list (list, int): List of clicks
+
+    Returns:
+        int: The maximized dot product between the two lists
+
+    """
     price_list.sort(reverse=True)
     clicks_list.sort(reverse=True)
     dot_product = 0
