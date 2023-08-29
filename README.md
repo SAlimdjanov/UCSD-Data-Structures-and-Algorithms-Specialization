@@ -11,4 +11,8 @@ Coursework from the USCD Data Structures and Algorithms Specialization offered o
 - Week 5: Dynamic Programming
 - Week 6: Dynamic Programming (Continued)
 
+### Course 2 - Data Structures
+
+- Week 1: Basic Data Structures
+
 More material is on the way!
