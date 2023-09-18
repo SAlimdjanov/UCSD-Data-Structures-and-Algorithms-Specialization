@@ -16,5 +16,6 @@ Coursework from the USCD Data Structures and Algorithms Specialization offered o
 - Week 1: Basic Data Structures
 - Week 2: Dynamic Arrays and Amortized Analysis (No Programming Assignment)
 - Week 3: Priority Queues and Disjoint Sets
+- Week 4: Hash Tables
 
 More material is on the way!
