@@ -17,5 +17,11 @@ Coursework from the USCD Data Structures and Algorithms Specialization offered o
 - Week 2: Dynamic Arrays and Amortized Analysis (No Programming Assignment)
 - Week 3: Priority Queues and Disjoint Sets
 - Week 4: Hash Tables
+- Week 5: Binary Search Trees (No Programming Assignment)
+- Week 6: Binary Search Trees 2
+
+### Course 3 - Algorithms on Graphs
+
+- Week 1: Graph Decomposition 1
 
 More material is on the way!
