@@ -22,6 +22,7 @@ Coursework from the USCD Data Structures and Algorithms Specialization offered o
 
 ### Course 3 - Algorithms on Graphs
 
-- Week 1: Graph Decomposition 1
+- Week 1: Graph Decomposition 1 Undirected Graphs
+- Week 2: Graph Decomposition 2: Directed Graphs
 
 More material is on the way!
