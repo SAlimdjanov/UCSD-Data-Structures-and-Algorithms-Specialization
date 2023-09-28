@@ -28,4 +28,8 @@ Coursework from the [Data Structures and Algorithms Specialization](https://www.
 -   Week 4: Paths in Graphs (Continued)
 -   Week 5: Minimum Spanning Trees
 
+### Course 4 - Algorithms on Strings
+
+-   Week 1: Suffix Trees
+
 More material is on the way!
