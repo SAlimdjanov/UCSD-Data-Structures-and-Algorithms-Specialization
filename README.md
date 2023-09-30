@@ -31,5 +31,8 @@ Coursework from the [Data Structures and Algorithms Specialization](https://www.
 ### Course 4 - Algorithms on Strings
 
 -   Week 1: Suffix Trees
+-   Week 2: Burrows-Wheeler Transform and Suffix Trees
+-   Week 3: Knuth-Morris-Pratt Algorithm (No Programming Assignment)
+-   Week 4: Constructing Suffix Arrays and Suffix Trees
 
 More material is on the way!
