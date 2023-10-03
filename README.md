@@ -35,4 +35,6 @@ Coursework from the [Data Structures and Algorithms Specialization](https://www.
 -   Week 3: Knuth-Morris-Pratt Algorithm (No Programming Assignment)
 -   Week 4: Constructing Suffix Arrays and Suffix Trees
 
-More material is on the way!
+### Course 5 - Advanced Algorithms and Complexity
+
+-   Week 1: Flows in Networks
