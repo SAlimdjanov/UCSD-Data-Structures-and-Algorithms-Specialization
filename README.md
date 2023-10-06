@@ -38,3 +38,4 @@ Coursework from the [Data Structures and Algorithms Specialization](https://www.
 ### Course 5 - Advanced Algorithms and Complexity
 
 -   Week 1: Flows in Networks
+-   Week 2: Linear Programming

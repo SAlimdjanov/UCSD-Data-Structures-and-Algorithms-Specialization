@@ -77,21 +77,21 @@ def find_subsets(_num_e, _num_v):
     return _subsets
 
 
-def solve_eq(_subset, _m_a, _m_b):
+def gaussian_elimination(_subset, _m_a, _m_b):
     """Solves an input Equation object with Gaussian elimination"""
     _a, _b = [], []
     for _i in _subset:
         _a.append(copy.deepcopy(_m_a[_i]))
         _b.append(copy.deepcopy(_m_b[_i]))
-    size = len(_a)
-    used_rows = [False] * size
-    for _i in range(size):
-        pivot = Position(0, _i)
-        pivot = select_pivot(pivot, _a, used_rows)
-        if not pivot:
+    _size = len(_a)
+    _used_rows = [False] * _size
+    for _i in range(_size):
+        _pivot_element = Position(0, _i)
+        _pivot_element = select_pivot(_pivot_element, _a, _used_rows)
+        if not _pivot_element:
             return None
-        swap_lines(_a, _b, used_rows, pivot)
-        process_pivot(_a, _b, pivot, used_rows)
+        swap_lines(_a, _b, _used_rows, _pivot_element)
+        process_pivot(_a, _b, _pivot_element, _used_rows)
     return _b
 
 
@@ -111,7 +111,7 @@ def solve(_subsets, _m_a, _m_b, _pleasure, _num_v):
     """Solve with gaussian elimination"""
     _solutions = []
     for _subset in _subsets:
-        _solution = solve_eq(_subset, _m_a, _m_b)
+        _solution = gaussian_elimination(_subset, _m_a, _m_b)
         if _solution is not None:
             if check_solution(_solution, _m_a, _m_b, _num_v):
                 _solutions.append(_solution)
