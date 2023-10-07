@@ -39,3 +39,4 @@ Coursework from the [Data Structures and Algorithms Specialization](https://www.
 
 -   Week 1: Flows in Networks
 -   Week 2: Linear Programming
+-   Week 3: NP-Completeness
