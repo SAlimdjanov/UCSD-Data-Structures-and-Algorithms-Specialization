@@ -40,3 +40,8 @@ Coursework from the [Data Structures and Algorithms Specialization](https://www.
 -   Week 1: Flows in Networks
 -   Week 2: Linear Programming
 -   Week 3: NP-Completeness
+-   Week 4: Coping with NP-Completeness
+
+### Course 6 - Genome Assembly Programming Challenge
+
+-   Week 1: 2011 European E. coli Outbreak
