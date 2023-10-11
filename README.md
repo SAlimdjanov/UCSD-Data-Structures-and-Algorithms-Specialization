@@ -45,3 +45,4 @@ Coursework from the [Data Structures and Algorithms Specialization](https://www.
 ### Course 6 - Genome Assembly Programming Challenge
 
 -   Week 1: 2011 European E. coli Outbreak
+-   Week 2: Assembling Genomes with De Bruijn Graphs
